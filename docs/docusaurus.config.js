@@ -10,7 +10,6 @@ const config = {
   title: 'Fastify Essentials',
   tagline: 'Fastify Essentials: Streamlining Success, Elevating Development',
   favicon: 'img/favicon.ico',
-
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
