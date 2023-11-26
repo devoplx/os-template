@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/devoplx/fastify-essentials/issues"
   },
-  "homepage": "https://github.com/devoplx/fastify-essentials#readme"
+  "homepage": "https://github.com/devoplx/fastify-essentials#readme",
+  "dependencies": {
+    "fastify": "^4.24.3"
+  }
 }
