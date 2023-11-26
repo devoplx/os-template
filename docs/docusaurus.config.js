@@ -13,7 +13,7 @@ const config = {
   baseUrl: '/',
 	trailingSlash: true,
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+
   organizationName: 'devoplx', // Usually your GitHub org/user name.
   projectName: 'Fastify Essentials', // Usually your repo name.
 
