@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-site.example.com/blog</id>
+    <title>Fastify Essentials Blog</title>
+    <updated>2023-11-25T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
+    <subtitle>Fastify Essentials Blog</subtitle>
+    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[welcome!]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/welcome-to-our-project</id>
+        <link href="https://your-docusaurus-site.example.com/blog/welcome-to-our-project"/>
+        <updated>2023-11-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello]]></summary>
+        <content type="html"><![CDATA[<p>Hello</p>]]></content>
+        <author>
+            <name>Rj Manhas</name>
+            <uri>https://github.com/rjmanhas</uri>
+        </author>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>
