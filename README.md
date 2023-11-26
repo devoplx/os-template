@@ -96,6 +96,7 @@ See the [open issues](https://github.com/devoplx/fastify-essentials/issues) for 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 * If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/devoplx/fastify-essentials/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
+* Please read our docs before making any changes, to make sure your changes are allowed or follow our style guides [here](linkcomingsoon.com).
 * Create individual PR for each suggestion.
 * Please also read through the [Code Of Conduct](https://github.com/devoplx/fastify-essentials/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
