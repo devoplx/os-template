@@ -1,0 +1,24 @@
+{
+  "name": "fastify-essentials",
+  "version": "0.0.0",
+  "description": "Streamline your Fastify development with Fastify-Essentials. This lightweight plugin integrates essential features for a smoother workflow. From advanced functionality to streamlined processes, Fastify-Essentials maximizes productivity without unnecessary complexity. The essence of Fastify, elevated.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devoplx/fastify-essentials.git"
+  },
+  "keywords": [
+    "fastify",
+    "essentials",
+    "qol"
+  ],
+  "author": "Rj Manhas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devoplx/fastify-essentials/issues"
+  },
+  "homepage": "https://github.com/devoplx/fastify-essentials#readme"
+}
