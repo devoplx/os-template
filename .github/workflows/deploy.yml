@@ -31,14 +31,17 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: npm
+          
 
 
       - name: Change to docs directory
         run: cd docs
       - name: Instaa
+        working-directory: docs
         run: npm install
+        
       - name: Build
+        working-directory: docs
         run: npm run build
 
       - name: Setup Pages
