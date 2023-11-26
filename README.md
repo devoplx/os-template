@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/devoplx/fastify-essentials">
-    <img src="https://socialify.git.ci/devoplx/fastify-essentials/image?font=KoHo&name=1&owner=1&theme=Dark" alt="Logo" width="80" height="80">
+    <img src="https://socialify.git.ci/devoplx/fastify-essentials/image?font=KoHo&name=1&owner=1&theme=Dark" alt="Logo" >
   </a>
 
   <h3 align="center">Fastify Essentials plugin</h3>
