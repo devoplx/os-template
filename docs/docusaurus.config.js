@@ -1,6 +1,5 @@
 // @ts-check
 // `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
 
 import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
