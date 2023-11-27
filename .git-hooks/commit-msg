@@ -1,0 +1,41 @@
+#!/usr/bin/env node
+const fs = require('fs');
+
+const conventionalCommitMessageRegExp = /^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test){1}(\([\w\-\.]+\))?(!)?: ([\w ])+([\s\S]*)/g;
+let exitCode = 0;
+const commitMsgFile = process.argv[2];
+const message = fs.readFileSync(commitMsgFile, 'utf8');
+const isValid = conventionalCommitMessageRegExp.test(message);
+
+if (!isValid) {
+   console.log('Cannot commit: the commit message does not comply with conventional commits standards.');
+   exitCode = 1;
+} else {
+   // Extract the commit type from the message
+   const commitType = message.split(':')[0].trim();
+   
+   // Map commit types to emojis
+   const emojiMap = {
+      build: '🛠️',
+      chore: '🔧',
+      ci: '🚀',
+      docs: '📝',
+      feat: '✨',
+      fix: '🐛',
+      perf: '⚡',
+      refactor: '🔨',
+      revert: '↩️',
+      style: '💄',
+      test: '🧪',
+   };
+
+   // Add emoji to the start of the message based on the commit type
+   const emoji = emojiMap[commitType] || '📦'; // Default to a package emoji if not found
+   const newMessage = `${emoji} ${message}`;
+   
+   // Update the commit message file
+   fs.writeFileSync(commitMsgFile, newMessage, 'utf8');
+   console.log(`Commit message updated with emoji: ${emoji}`);
+}
+
+process.exit(exitCode);
