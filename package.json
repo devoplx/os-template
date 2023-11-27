@@ -1,45 +1,45 @@
 {
-  "name": "fastify-essentials",
-  "version": "0.0.0",
-  "description": "Streamline your Fastify development with Fastify-Essentials. This lightweight plugin integrates essential features for a smoother workflow. From advanced functionality to streamlined processes, Fastify-Essentials maximizes productivity without unnecessary complexity. The essence of Fastify, elevated.",
-  "main": "index.js",
-  "scripts": {
-    "test": "test",
-    "dev": "npx nodemon",
-    "build": "tsc",
-    "eslint": "npx eslint ./src/**",
-    "prettier": "prettier --write ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/devoplx/fastify-essentials.git"
-  },
-  "keywords": [
-    "fastify",
-    "essentials",
-    "qol"
-  ],
-  "author": "Rj Manhas",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devoplx/fastify-essentials/issues"
-  },
-  "homepage": "https://github.com/devoplx/fastify-essentials#readme",
-  "dependencies": {
-    "fastify": "^4.24.3"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.12.0",
-    "@typescript-eslint/parser": "^6.12.0",
-    "eslint": "^8.54.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^17.1.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-unused-imports": "^3.0.0",
-    "nodemon": "^3.0.1",
-    "prettier": "3.1.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.3.2"
-  }
+    "name": "fastify-essentials",
+    "version": "0.0.0",
+    "description": "Streamline your Fastify development with Fastify-Essentials. This lightweight plugin integrates essential features for a smoother workflow. From advanced functionality to streamlined processes, Fastify-Essentials maximizes productivity without unnecessary complexity. The essence of Fastify, elevated.",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "dev": "npx nodemon",
+        "build": "tsc",
+        "eslint": "npx eslint ./src/**",
+        "prettier": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devoplx/fastify-essentials.git"
+    },
+    "keywords": [
+        "fastify",
+        "essentials",
+        "qol"
+    ],
+    "author": "Rj Manhas",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/devoplx/fastify-essentials/issues"
+    },
+    "homepage": "https://github.com/devoplx/fastify-essentials#readme",
+    "dependencies": {
+        "fastify": "^4.24.3"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.12.0",
+        "@typescript-eslint/parser": "^6.12.0",
+        "eslint": "^8.54.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-airbnb-typescript": "^17.1.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "eslint-plugin-unused-imports": "^3.0.0",
+        "nodemon": "^3.0.1",
+        "prettier": "3.1.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.3.2"
+    }
 }

@@ -1,57 +1,55 @@
 name: Deploy static content to Pages
 
 on:
-  push:
-    branches: [master]
-  workflow_dispatch:
+    push:
+        branches: [master]
+    workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+    contents: read
+    pages: write
+    id-token: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: true
+    group: 'pages'
+    cancel-in-progress: true
 
 env:
-  NODE_OPTIONS: --max-old-space-size=6144
+    NODE_OPTIONS: --max-old-space-size=6144
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+    deploy:
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
-          
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18.x
 
+            - name: Change to docs directory
+              run: cd docs
+            - name: Instaa
+              working-directory: docs
+              run: npm install
 
-      - name: Change to docs directory
-        run: cd docs
-      - name: Instaa
-        working-directory: docs
-        run: npm install
-        
-      - name: Build
-        working-directory: docs
-        run: npm run build
+            - name: Build
+              working-directory: docs
+              run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
+            - name: Setup Pages
+              uses: actions/configure-pages@v3
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: docs/build
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v2
+              with:
+                  path: docs/build
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v2

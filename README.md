@@ -21,20 +21,20 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/devoplx/fastify-essentials/total) ![Contributors](https://img.shields.io/github/contributors/devoplx/fastify-essentials?color=dark-green) ![Forks](https://img.shields.io/github/forks/devoplx/fastify-essentials?style=social) ![Stargazers](https://img.shields.io/github/stars/devoplx/fastify-essentials?style=social) ![Issues](https://img.shields.io/github/issues/devoplx/fastify-essentials) ![License](https://img.shields.io/github/license/devoplx/fastify-essentials) 
+![Downloads](https://img.shields.io/github/downloads/devoplx/fastify-essentials/total) ![Contributors](https://img.shields.io/github/contributors/devoplx/fastify-essentials?color=dark-green) ![Forks](https://img.shields.io/github/forks/devoplx/fastify-essentials?style=social) ![Stargazers](https://img.shields.io/github/stars/devoplx/fastify-essentials?style=social) ![Issues](https://img.shields.io/github/issues/devoplx/fastify-essentials) ![License](https://img.shields.io/github/license/devoplx/fastify-essentials)
 
 ## Table Of Contents
 
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
+-   [About the Project](#about-the-project)
+-   [Built With](#built-with)
+-   [Getting Started](#getting-started)
+    -   [Installation](#installation)
+-   [Usage](#usage)
+-   [Roadmap](#roadmap)
+-   [Contributing](#contributing)
+-   [License](#license)
+-   [Authors](#authors)
+-   [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
@@ -67,11 +67,14 @@ npm install @devoplx/fastify-essentials
 3. import the plugin in your app file
 
 Javascript:
+
 ```sh
 
 const fastifyessentials= require('@devoplx/fastify-essentials')()
 ```
+
 Typescript (recommended):
+
 ```sh
 
 import fastifyEssentials from '@devoplx/fastify-essentials';
@@ -94,11 +97,12 @@ See the [open issues](https://github.com/devoplx/fastify-essentials/issues) for 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/devoplx/fastify-essentials/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Please read our docs before making any changes, to make sure your changes are allowed or follow our style guides [here](linkcomingsoon.com).
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/devoplx/fastify-essentials/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+
+-   If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/devoplx/fastify-essentials/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
+-   Please make sure you check your spelling and grammar.
+-   Please read our docs before making any changes, to make sure your changes are allowed or follow our style guides [here](linkcomingsoon.com).
+-   Create individual PR for each suggestion.
+-   Please also read through the [Code Of Conduct](https://github.com/devoplx/fastify-essentials/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -114,12 +118,12 @@ Distributed under the MIT License. See [LICENSE](https://github.com/devoplx/fast
 
 ## Authors
 
-* **Rj Manhas** - *High School Student* - [Rj Manhas](https://github.com/RjManhas/) - *Founder*
-* **community** - *the whole fastify essentials plugin community* - [community](https://github.com/devoplx/fastify-essentials) - *making this project even better❤*
+-   **Rj Manhas** - _High School Student_ - [Rj Manhas](https://github.com/RjManhas/) - _Founder_
+-   **community** - _the whole fastify essentials plugin community_ - [community](https://github.com/devoplx/fastify-essentials) - _making this project even better❤_
 
 ## Acknowledgements
 
-* [RjManhas](https://github.com/RjManhas/)
-* [socialify](https://socialify.git.ci/)
-* [ImgShields](https://shields.io/)
-* [fastify](fastify.dev)
+-   [RjManhas](https://github.com/RjManhas/)
+-   [socialify](https://socialify.git.ci/)
+-   [ImgShields](https://shields.io/)
+-   [fastify](fastify.dev)
