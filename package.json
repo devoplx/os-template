@@ -2,14 +2,32 @@
     "name": "fastify-essentials",
     "version": "0.0.0",
     "description": "Streamline your Fastify development with Fastify-Essentials. This lightweight plugin integrates essential features for a smoother workflow. From advanced functionality to streamlined processes, Fastify-Essentials maximizes productivity without unnecessary complexity. The essence of Fastify, elevated.",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "private": false,
     "scripts": {
         "test": "test",
         "dev": "npx nodemon",
-        "build": "tsc",
+        "build": "tsup ",
         "eslint": "npx eslint ./src/**",
         "prettier": "prettier --write .",
-				"github:setup": "git config core.hooksPath .git-hooks "
+        "github:setup": "git config core.hooksPath .git-hooks ",
+        "release": "release-it"
+    },
+    "tsup": {
+        "dts": true,
+        "bundle": false,
+        "clean": true,
+        "treeshake": true,
+        "target": "node16",
+        "format": [
+            "cjs",
+            "esm"
+        ],
+        "entry": [
+            "src/**/*.ts"
+        ]
     },
     "repository": {
         "type": "git",
@@ -40,7 +58,9 @@
         "eslint-plugin-unused-imports": "^3.0.0",
         "nodemon": "^3.0.1",
         "prettier": "3.1.0",
+        "release-it": "^17.0.0",
         "ts-node": "^10.9.1",
+        "tsup": "^8.0.1",
         "typescript": "^5.3.2"
     }
 }
