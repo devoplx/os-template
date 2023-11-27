@@ -6,7 +6,8 @@
   "scripts": {
     "test": "test",
     "dev": "npx nodemon",
-    "build": "tsc"
+    "build": "tsc",
+		"eslint": "npx eslint ."
   },
   "repository": {
     "type": "git",
