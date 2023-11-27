@@ -1,2 +1,0 @@
-* [Home](/)
-* [test](test.md)
