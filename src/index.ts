@@ -1,2 +1,4 @@
-console.log('hello world!');
-const hello = 1;
+function test(){
+	console.log("Testing")
+}
+export default test();

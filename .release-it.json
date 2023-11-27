@@ -7,7 +7,7 @@
         "commitMessage": "chore: release v${version}"
     },
     "hooks": {
-        "before:init": ["git pull", "npm run eslint", "npm run prettier"],
+        "before:init": ["git pull", "npm run eslint", "npm run prettier", "npm run build"],
         "after:bump": "npx auto-changelog -p"
     },
     "npm": {
