@@ -1,1 +1,3 @@
 /!(build)/**/*.ts
+docs/
+node_modules/

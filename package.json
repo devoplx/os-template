@@ -7,7 +7,7 @@
     "test": "test",
     "dev": "npx nodemon",
     "build": "tsc",
-    "eslint": "npx eslint .",
+    "eslint": "npx eslint ./src/**",
     "prettier": "prettier --write ."
   },
   "repository": {
