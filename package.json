@@ -1,7 +1,7 @@
 {
-    "name": "@devoplx/fastify-essentials",
+    "name": "@devoplx/SilkHarvest",
     "version": "0.0.0",
-    "description": "Streamline your Fastify development with Fastify-Essentials. This lightweight plugin integrates essential features for a smoother workflow. From advanced functionality to streamlined processes, Fastify-Essentials maximizes productivity without unnecessary complexity. The essence of Fastify, elevated.",
+    "description": "SilkHarvest, an open-source web scraping framework, weaves a tapestry of elegance in the world of data extraction. Immerse yourself in the sophistication of seamless data gathering as SilkHarvest gracefully navigates the intricacies of the web. This framework effortlessly handles saving and automating the scraping process, offering developers a silky-smooth experience. With a focus on finesse and reliability, SilkHarvest emerges as the preferred choice for those who seek refined, efficient, and reliable web scraping solutions. Elevate your data harvesting experience with SilkHarvest - where precision meets sophistication.",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
@@ -31,7 +31,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/devoplx/fastify-essentials.git"
+        "url": "git+https://github.com/devoplx/SilkHarvest.git"
     },
     "keywords": [
         "fastify",
@@ -41,9 +41,9 @@
     "author": "Rj Manhas",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/devoplx/fastify-essentials/issues"
+        "url": "https://github.com/devoplx/SilkHarvest/issues"
     },
-    "homepage": "https://github.com/devoplx/fastify-essentials#readme",
+    "homepage": "https://github.com/devoplx/SilkHarvest#readme",
     "dependencies": {
         "fastify": "^4.24.3"
     },
